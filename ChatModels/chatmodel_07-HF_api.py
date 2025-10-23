@@ -31,7 +31,6 @@ try:
         repo_id="mistralai/Mixtral-8x7B-Instruct-v0.1",
         task="conversational",
         huggingfacehub_api_token=api_token,
-        max_tokens=20,  # Limit response length
         temperature=0.7  # Adjust for less randomness
     )
 except Exception as e:

@@ -31,7 +31,6 @@ try:
         repo_id="google/gemma-2-2b-it",
         task="conversational",
         huggingfacehub_api_token=api_token,
-        max_tokens=50,
         temperature=0.7
     )
 except Exception as e:
