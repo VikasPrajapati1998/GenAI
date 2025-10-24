@@ -28,6 +28,7 @@ pip install --index-url https://download.pytorch.org/whl/cpu torch --upgrade
 # Install Hugging Face, LangChain, and helpers
 pip install transformers huggingface_hub sentencepiece tokenizers safetensors
 pip install langchain langchain-huggingface
+pip install -r requirements.txt
 ```
 
 > **Note:** If you have a CUDA-compatible GPU, install PyTorch with CUDA instead:
@@ -52,6 +53,10 @@ local_dir = snapshot_download(
 )
 
 print("Saved model to:", local_dir)
+```
+
+```
+python download_model.py
 ```
 
 * The downloaded folder (`./models/TinyLlama-Chat`) will include:
