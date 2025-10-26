@@ -38,6 +38,7 @@ print(f"Embedding for query: '{QUERY}'")
 print(f"Vector: {vector}")
 print(f"Vector dimension: {len(vector)}")
 print(f"First 10 values: {vector[:10]}")
+print("\n")
 
 # Optional: Embed multiple documents
 documents = [
