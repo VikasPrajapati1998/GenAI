@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 from langchain_core.messages import HumanMessage
 
+os.environ["HF_HUB_OFFLINE"] = "0"
+
 # Configure logging
 logging.basicConfig(
     level=logging.DEBUG,
