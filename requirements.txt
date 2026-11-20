@@ -1,0 +1,4 @@
+ollama>=0.6
+numpy>=1.26
+networkx>=3.2     # GraphRAG.py
+mcp>=2.0          # MCPAgent.py + mcp_procurement_server.py (SDK v2, MCP spec 2026-07-28)
